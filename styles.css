@@ -156,6 +156,10 @@
     .explore-button-container {
         flex-direction: column;
         align-content: center;
+        text-align: center;
+    }
+    .luke-block{
+        align-items: center;
     }
 
     .explore-buttons {
