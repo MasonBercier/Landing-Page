@@ -1,0 +1,170 @@
+/* LUKE */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+
+/* *:nth-child(1){border:solid 2px green;}
+*:nth-child(2){border:solid 2px blue;}
+*:nth-child(3){border:solid 2px orange;} */
+
+.luke-tree {
+    display: flex;
+    justify-content: center;
+
+}
+
+.luke-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-grow: 12;
+    max-width: 1000px;
+}
+
+.luke-block {
+    display: flex;
+    flex-direction: column;
+    max-width: 430px;
+    justify-content: center;
+}
+
+.luke-block1>* {
+    margin: 0.5rem 0;
+    padding-left: 12px;
+}
+
+.luke-block h1 {
+    font-size: 2.9rem;
+}
+
+.luke-block h2 {
+    font-size: 1.7rem;
+    font-weight: lighter;
+}
+
+.luke-block h6 {
+    font-size: 0.6rem;
+}
+
+.luke-block p,
+.sign-in-link strong {
+    font-size: 0.9rem;
+    color: gray;
+}
+
+.luke-block a {
+    color: black;
+}
+
+.header-buttons a,
+.header-buttons {
+    border-radius: 10px;
+    padding: 12px;
+    margin-right: 10px;
+}
+
+.header-buttons .sign-up-button {
+    border: solid black 1px;
+    background-color: blue;
+    color: white;
+}
+
+.header-buttons .chat-button {
+    color: blue;
+    border: solid blue 1px;
+}
+
+.luke-block h6 i {
+    color: blue;
+}
+
+.explore-tree {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.explore-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.explore-description {
+    max-width: 650px;
+    border-top: solid 1px black;
+}
+
+.explore-button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    max-width: 900px;
+
+}
+
+.explore-buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.explore-tree>*,
+.explore-description>* {
+    margin: 2rem;
+}
+
+.explore-button {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 15px;
+    border: solid black 1px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 2rem;
+}
+.explore-button p{
+    position:relative;
+}
+.payments-button {
+    background-image: url("images/Path\ 236.png");
+    background-size: 3rem;
+}
+
+.retain-button {
+    background-image: url("images/Page-1.png")
+}
+
+.reporting-button {
+    background-image: url("images/layer1.png");
+}
+
+.convert-button {
+    background-image: url("images/upanddown\ opposite\ sidebyside\ updown\ directions\ two\ arrows.png");
+}
+
+@media screen and (max-width:900px) {
+
+    .luke-container,
+    .explore-button-container {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .explore-buttons {
+        width: 100%;
+    }
+
+    .explore-button {
+        margin: 1rem;
+    }
+}
+
+/* LUKE */
