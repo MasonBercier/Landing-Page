@@ -172,3 +172,126 @@
 }
 
 /* LUKE */
+
+/* SJ */
+    .learn{
+        background-color: white; 
+        width: 10rem;
+        height: 2rem;
+    }
+    .email{
+        position: absolute;
+        left: 41rem;
+        bottom: -10rem
+    }
+
+    .task{
+        position: absolute;
+        left: 68rem;
+        bottom: -10rem;
+    }
+    .analytics{
+        position: absolute;
+        left: 43.3rem;
+        bottom: -35rem;
+    }
+    .project{
+        position: absolute;
+        left: 68rem;
+        bottom: -35rem;
+    }
+
+    .description1{
+        position: absolute;
+        left: 36rem;
+        bottom: -13rem;
+        font-size: 1rem;
+    }
+
+    .description2{
+        position: absolute;
+        left: 64rem;
+        bottom: -13rem;
+        font-size: 1rem;
+    }
+    .description3{
+        position: absolute;
+        left: 64rem;
+        bottom: -38rem;
+        font-size: 1rem;
+    }
+    .description4{
+        position: absolute;
+        left: 36rem;
+        bottom: -38rem;
+        font-size: 1rem;
+    }
+
+    .learn1{
+        position: absolute;
+        left: 44rem;
+        bottom: -15rem; 
+    }
+
+    .learn2{
+        position: absolute;
+        left: 72rem;
+        bottom: -15rem; 
+    }
+    
+    .learn3{
+        position: absolute;
+        left: 72rem;
+        bottom: -40rem; 
+    }
+    .learn4{
+        position: absolute;
+        left: 44rem;
+        bottom: -40rem;
+        
+    }
+    .back1{
+        position: absolute;
+        left: 42rem;
+        bottom: -7rem; 
+    }
+    .back2{
+        position: absolute;
+        left: 70rem;
+        bottom: -7rem; 
+    }
+    .back3{
+        position: absolute;
+        left: 42rem;
+        bottom: -32rem; 
+    }
+    .back4{
+        position: absolute;
+        left: 70rem;
+        bottom: -32rem; 
+    }
+
+    .pic1{
+        position: absolute;
+        left: 43.6rem;
+        bottom: -5.4rem; 
+    }
+
+    .pic2{
+        position: absolute;
+        left: 72rem;
+        bottom: -5.4rem; 
+    }
+    .pic3{
+        position: absolute;
+        left: 43.6rem;
+        bottom: -30rem;
+         
+    }
+    .pic4{
+        position: absolute;
+        left: 72.2rem;
+        bottom: -30.7rem; 
+    }
+/* SJ */
+
