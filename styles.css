@@ -1,13 +1,13 @@
 /* LUKE */
 * {
     padding: 0;
-    margin: 0;
+    margin: 5px;
     font-family: sans-serif;
     text-decoration: none;
 }
 
-
-/* *:nth-child(1){border:solid 2px green;}
+/* *{border:solid 2px red;}
+*:nth-child(1){border:solid 2px green;}
 *:nth-child(2){border:solid 2px blue;}
 *:nth-child(3){border:solid 2px orange;} */
 
