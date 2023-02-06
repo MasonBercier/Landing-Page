@@ -6,7 +6,7 @@
     text-decoration: none;
 }
 
-/* *{border:solid red 2px; margin: 5px;}
+/* *{border:solid red 2px;}
 *:nth-child(1){border:solid 2px green;}
 *:nth-child(2){border:solid 2px blue;}
 *:nth-child(3){border:solid 2px orange;} */
@@ -103,12 +103,14 @@
     width: 60%;
     max-width: 900px;
 }
-h6 > *{
-    display:inline;
+
+h6>* {
+    display: inline;
 }
-#weird-oval{
+
+#weird-oval {
     background-color: rgb(0, 0, 255);
-    color:blue;
+    color: blue;
     border-radius: 100%;
     font-size: .5rem;
     margin: 0 .5rem;
@@ -126,7 +128,7 @@ h6 > *{
 }
 
 .explore-button {
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: flex-end;
     width: 6rem;
@@ -135,27 +137,31 @@ h6 > *{
     border: solid black 1px;
     background-size: contain;
     background-repeat: no-repeat;
-    background-position:center;
+    background-position: center;
     background-size: 2rem;
     font-size: .8rem;
 }
+
 .payments-button {
     background-image: url("images/Path\ 236.png");
     background-size: 3rem;
-    background-color:blue;
-    color:white;
+    background-color: blue;
+    color: white;
 }
-.payments-button > p{
+
+.payments-button>p {
     margin-bottom: 7px;
 }
-.button-text{
-    color:black;
+
+.button-text {
+    color: black;
     margin-bottom: 7px;
 }
-.dollar-sign{
-    color:black;
+
+.dollar-sign {
+    color: black;
     font-size: 1.6rem;
-    font-family:'Chakra Petch';
+    font-family: 'Chakra Petch';
 }
 
 .retain-button {
@@ -178,7 +184,8 @@ h6 > *{
         align-content: center;
         text-align: center;
     }
-    .luke-block{
+
+    .luke-block {
         align-items: center;
     }
 
@@ -195,15 +202,14 @@ h6 > *{
 
 /* Carlos */
 
-#paymentsContainer{
+#paymentsContainer {
     display: flex;
-    
     width: 90%;
     max-width: 1000px;
     flex-wrap: wrap;
 }
 
-#creditCardPictureContainer{
+#creditCardPictureContainer {
     display: flex;
     align-items: center;
     width: 400px;
@@ -212,11 +218,11 @@ h6 > *{
     border-radius: 20px 2px 2px 20px;
 }
 
-#creditCardImage{
+#creditCardImage {
     width: 100%;
 }
 
-#creditCardText{
+#creditCardText {
     width: 500px;
     padding: 100px 30px;
     background-color: rgb(0, 81, 255);
@@ -226,20 +232,20 @@ h6 > *{
     text-align: left;
 }
 
-.cardTitle{
+.cardTitle {
     margin-bottom: 40px;
     font-size: 32px;
 }
 
-.cardSummary{
+.cardSummary {
     margin-bottom: 40px;
 }
 
-.cardListItem{
+.cardListItem {
     margin-bottom: 20px;
 }
 
-.learnMoreBtn{
+.learnMoreBtn {
     display: inline-block;
     padding: 10px 20px 10px 90px;
     border: 3px solid white;
@@ -248,211 +254,135 @@ h6 > *{
     font-size: 20px;
 }
 
-.noStyle{
+.noStyle {
     text-decoration: none;
     color: white;
 }
 
-.learnMoreText{
+.learnMoreText {
     display: flex;
     align-items: center;
 }
 
 
-#test{
+#test {
     display: inline-block;
     font-size: 40px;
     font-weight: bold;
-    font-family:monospace;
+    font-family: monospace;
     margin-left: 100px;
 }
+
 /* Carlos */
 
 /* SJ */
-    .learn{
-        background-color: white; 
-        width: 10rem;
-        height: 2rem;
-    }
-    .email{
-        position: absolute;
-        left: 41rem;
-        bottom: -10rem
-    }
+.sj-container {
+    width: 70%;
+    margin: 5rem 0;
+}
 
-    .task{
-        position: absolute;
-        left: 68rem;
-        bottom: -10rem;
-    }
-    .analytics{
-        position: absolute;
-        left: 43.3rem;
-        bottom: -35rem;
-    }
-    .project{
-        position: absolute;
-        left: 68rem;
-        bottom: -35rem;
-    }
+.sj-container section {
+    display: flex;
+    justify-content: space-around;
+    margin: 4rem;
+}
 
-    .description1{
-        position: absolute;
-        left: 36rem;
-        bottom: -13rem;
-        font-size: 1rem;
-    }
+.sj-box {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
+}
 
-    .description2{
-        position: absolute;
-        left: 64rem;
-        bottom: -13rem;
-        font-size: 1rem;
-    }
-    .description3{
-        position: absolute;
-        left: 64rem;
-        bottom: -38rem;
-        font-size: 1rem;
-    }
-    .description4{
-        position: absolute;
-        left: 36rem;
-        bottom: -38rem;
-        font-size: 1rem;
-    }
+.sj-box>* {
+    margin: .5rem;
+}
 
-    .learn1{
-        position: absolute;
-        left: 44rem;
-        bottom: -15rem; 
-    }
+.picture {
+    background-image: url("images/back.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 8rem;
+    height: 8rem;
+}
 
-    .learn2{
-        position: absolute;
-        left: 72rem;
-        bottom: -15rem; 
-    }
-    
-    .learn3{
-        position: absolute;
-        left: 72rem;
-        bottom: -40rem; 
-    }
-    .learn4{
-        position: absolute;
-        left: 44rem;
-        bottom: -40rem;
-        
-    }
-    .back1{
-        position: absolute;
-        left: 42rem;
-        bottom: -7rem; 
-    }
-    .back2{
-        position: absolute;
-        left: 70rem;
-        bottom: -7rem; 
-    }
-    .back3{
-        position: absolute;
-        left: 42rem;
-        bottom: -32rem; 
-    }
-    .back4{
-        position: absolute;
-        left: 70rem;
-        bottom: -32rem; 
-    }
+.sj-box img {
+    width: 60%;
+    margin: 20%;
+}
 
-    .pic1{
-        position: absolute;
-        left: 43.6rem;
-        bottom: -5.4rem; 
-    }
+.learn1 {
+    width: 50%;
+    padding: 1rem;
+    border-radius: 5px;
+}
 
-    .pic2{
-        position: absolute;
-        left: 72rem;
-        bottom: -5.4rem; 
-    }
-    .pic3{
-        position: absolute;
-        left: 43.6rem;
-        bottom: -30rem;
-         
-    }
-    .pic4{
-        position: absolute;
-        left: 72.2rem;
-        bottom: -30.7rem; 
-    }
 /* SJ */
 
 /* MASON */
 
 .mason-img {
-	max-width: 100%;
-	height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 
 .mason-header-container {
-	width: 100%;
-	max-width: 100%;
-	padding: 20px;
-	margin: 0 auto;
+    width: 97%;
+    max-width: 100%;
+    padding: 20px;
 }
 
-.mason-main-header .mason-header-container{
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
-	flex-wrap: wrap;
+.mason-main-header .mason-header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .mason-main-nav ul {
-	margin: 1em 0 .5em;
-	text-align: center;
-}
-.mason-main-nav li {
-	display: inline;
-}
-.mason-main-nav a {
-    color: black;
-	display: inline-block;
-	padding: .5em 2.7em;
+    margin: 1em 0 .5em;
+    text-align: center;
 }
 
-.mason-header-buttons{
+.mason-main-nav li {
+    display: inline;
+}
+
+.mason-main-nav a {
+    color: black;
+    display: inline-block;
+    padding: .5em 2.7em;
+}
+
+.mason-header-buttons {
     padding-left: 6em;
     justify-content: space-around;
 }
 
-.mason-sign-in{
+.mason-sign-in {
     border-color: blue;
     background-color: white;
     border-radius: 8px;
 }
-.mason-sign-in a{
+
+.mason-sign-in a {
     color: blue;
 }
-.mason-try-it{
+
+.mason-try-it {
     border-color: blue;
     border-radius: 8px;
 }
 
-.mason-try-it a{
+.mason-try-it a {
     color: white;
     background-color: blue;
 }
 
-.mason-footer-container{
-    width: 100%;
-	max-width: 100%;
-	padding: 20px;
-	margin: 0 auto;
+.mason-footer-container {
+    padding: 20px;
     background-color: rgb(0, 83, 255);
     color: white;
     display: flex;
@@ -460,58 +390,67 @@ h6 > *{
     align-items: center;
 }
 
-.mason-main-footer h1{
+.mason-main-footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.mason-main-footer h1 {
     font-size: 36px;
     padding-bottom: 10px;
 }
 
-.mason-main-footer h2{
+.mason-main-footer h2 {
     font-size: 22px;
     padding-bottom: 10px;
 }
-.mason-footer-buttons{
-    padding-bottom:20px;
+
+.mason-footer-buttons {
+    padding-bottom: 20px;
 }
 
-.mason-get-started{
+.mason-get-started {
     margin-right: 60px;
     width: 110px;
     height: 25px;
     border-radius: 4px;
-    border-color:rgb(130, 255, 47);
-    background-color:rgb(130, 255, 47);
+    border-color: rgb(130, 255, 47);
+    background-color: rgb(130, 255, 47);
     color: white;
 }
-.mason-get-started a{
+
+.mason-get-started a {
     color: white;
     font-size: 13px;
 }
 
-.mason-chat a{
+.mason-chat a {
     color: rgb(0, 83, 255);
     font-size: 13px;
 }
-.mason-chat{
+
+.mason-chat {
     width: 110px;
     height: 25px;
     border-radius: 4px;
-    border-color:white;
-    background-color:white;
+    border-color: white;
+    background-color: white;
 }
 
-.mason-main-footer h3{
+.mason-main-footer h3 {
     font-size: 10px;
     padding-bottom: 60px;
 }
 
-.mason-main-footer img{
+.mason-main-footer img {
     width: 10px;
 }
 
 @media (min-width: 960px) {
-	.main-header .container {
-		justify-content: space-between;
-	}
+    .main-header .container {
+        justify-content: space-between;
+    }
 }
 
 /* MASON */
