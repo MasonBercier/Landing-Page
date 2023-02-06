@@ -390,3 +390,128 @@ h6 > *{
     }
 /* SJ */
 
+/* MASON */
+
+.mason-img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+.mason-header-container {
+	width: 100%;
+	max-width: 100%;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+.mason-main-header .mason-header-container{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.mason-main-nav ul {
+	margin: 1em 0 .5em;
+	text-align: center;
+}
+.mason-main-nav li {
+	display: inline;
+}
+.mason-main-nav a {
+    color: black;
+	display: inline-block;
+	padding: .5em 2.7em;
+}
+
+.mason-header-buttons{
+    padding-left: 6em;
+    justify-content: space-around;
+}
+
+.mason-sign-in{
+    border-color: blue;
+    background-color: white;
+    border-radius: 8px;
+}
+.mason-sign-in a{
+    color: blue;
+}
+.mason-try-it{
+    border-color: blue;
+    border-radius: 8px;
+}
+
+.mason-try-it a{
+    color: white;
+    background-color: blue;
+}
+
+.mason-footer-container{
+    width: 100%;
+	max-width: 100%;
+	padding: 20px;
+	margin: 0 auto;
+    background-color: rgb(0, 83, 255);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mason-main-footer h1{
+    font-size: 36px;
+    padding-bottom: 10px;
+}
+
+.mason-main-footer h2{
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+.mason-footer-buttons{
+    padding-bottom:20px;
+}
+
+.mason-get-started{
+    margin-right: 60px;
+    width: 110px;
+    height: 25px;
+    border-radius: 4px;
+    border-color:rgb(130, 255, 47);
+    background-color:rgb(130, 255, 47);
+    color: white;
+}
+.mason-get-started a{
+    color: white;
+    font-size: 13px;
+}
+
+.mason-chat a{
+    color: rgb(0, 83, 255);
+    font-size: 13px;
+}
+.mason-chat{
+    width: 110px;
+    height: 25px;
+    border-radius: 4px;
+    border-color:white;
+    background-color:white;
+}
+
+.mason-main-footer h3{
+    font-size: 10px;
+    padding-bottom: 60px;
+}
+
+.mason-main-footer img{
+    width: 10px;
+}
+
+@media (min-width: 960px) {
+	.main-header .container {
+		justify-content: space-between;
+	}
+}
+
+/* MASON */
