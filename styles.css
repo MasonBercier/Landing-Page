@@ -389,18 +389,13 @@ h6>* {
 
 .mason-try-it {
     border-color: #0053ff;
-    padding: 10px 18px;
-}
-
-.mason-try-it {
-    border-color: #0053ff;
     border-radius: 8px;
+    background-color: #0053ff;
+    margin-left: 10px;
 }
 
 .mason-try-it a {
     color: white;
-    background-color: #0053ff;
-    padding: 10px 15px;
 }
 
 .mason-footer-container {
