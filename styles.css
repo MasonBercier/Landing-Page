@@ -172,6 +172,80 @@
 }
 
 /* LUKE */
+/* Carlos */
+
+#paymentsContainer{
+    display: flex;
+    
+    width: 90%;
+    max-width: 1000px;
+    flex-wrap: wrap;
+}
+
+#creditCardPictureContainer{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    padding: 30px 15px;
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 20px 2px 2px 20px;
+}
+
+#creditCardImage{
+    width: 100%;
+}
+
+#creditCardText{
+    width: 500px;
+    padding: 100px 30px;
+    background-color: rgb(0, 81, 255);
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 0 20px 20px 0;
+    color: white;
+    text-align: left;
+}
+
+.cardTitle{
+    margin-bottom: 40px;
+    font-size: 32px;
+}
+
+.cardSummary{
+    margin-bottom: 40px;
+}
+
+.cardListItem{
+    margin-bottom: 20px;
+}
+
+.learnMoreBtn{
+    display: inline-block;
+    padding: 10px 20px 10px 90px;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.noStyle{
+    text-decoration: none;
+    color: white;
+}
+
+.learnMoreText{
+    display: flex;
+    align-items: center;
+}
+
+
+#test{
+    display: inline-block;
+    font-size: 40px;
+    font-weight: bold;
+    font-family:monospace;
+    margin-left: 100px;
+}
+/* Carlos */
 
 /* SJ */
     .learn{
