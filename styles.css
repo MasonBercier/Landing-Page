@@ -6,8 +6,8 @@
     text-decoration: none;
 }
 
-
-/* *:nth-child(1){border:solid 2px green;}
+/* *{border:solid red 2px; margin: 5px;}
+*:nth-child(1){border:solid 2px green;}
 *:nth-child(2){border:solid 2px blue;}
 *:nth-child(3){border:solid 2px orange;} */
 
@@ -78,10 +78,6 @@
     border: solid blue 1px;
 }
 
-.luke-block h6 i {
-    color: blue;
-}
-
 .explore-tree {
     display: flex;
     flex-direction: column;
@@ -106,7 +102,16 @@
     justify-content: space-between;
     width: 60%;
     max-width: 900px;
-
+}
+h6 > *{
+    display:inline;
+}
+#weird-oval{
+    background-color: rgb(0, 0, 255);
+    color:blue;
+    border-radius: 100%;
+    font-size: .5rem;
+    margin: 0 .5rem;
 }
 
 .explore-buttons {
@@ -121,21 +126,36 @@
 }
 
 .explore-button {
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
     width: 6rem;
     height: 6rem;
     border-radius: 15px;
     border: solid black 1px;
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position:center;
     background-size: 2rem;
-}
-.explore-button p{
-    position:relative;
+    font-size: .8rem;
 }
 .payments-button {
     background-image: url("images/Path\ 236.png");
     background-size: 3rem;
+    background-color:blue;
+    color:white;
+}
+.payments-button > p{
+    margin-bottom: 7px;
+}
+.button-text{
+    color:black;
+    margin-bottom: 7px;
+}
+.dollar-sign{
+    color:black;
+    font-size: 1.6rem;
+    font-family:'Chakra Petch';
 }
 
 .retain-button {
@@ -172,6 +192,7 @@
 }
 
 /* LUKE */
+
 /* Carlos */
 
 #paymentsContainer{
